@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- fuentes google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+<!---->
     <link rel="stylesheet" href="../styles/styles.css">
     <title>Comprar</title>
 </head>
@@ -113,8 +127,8 @@
 
     <form class="formulario-contenedor">
         <div class="form-group">
-          <label for="formGroupExampleInput">Ingrese la cantidad deseada:</label>
-          <input type="text" class="form-control formulario-entrada" id="formGroupExampleInput" placeholder="Example input">
+          <label for="formGroupExampleInput" class="texto-formulario">Ingrese la cantidad deseada:</label>
+          <input type="text" class="form-control formulario-entrada" id="formGroupExampleInput" placeholder="Coloque cantidad">
         </div>
       </form>
 
@@ -128,11 +142,11 @@
 <!-- entrada de texto para poner email y ponerle un boton de enviar-->
 <form class="formulario-email-contenedor">
     <div class="form-group">
-      <label for="exampleInputEmail1">Dirección de correo electrónico:</label>
+      <label class="texto-formulario" for="exampleInputEmail1">Dirección de correo electrónico:</label>
       <input type="email" class="form-control formulario-entrada" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nombredeusuario@gmail.com">
-      <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo.</small>
+      <small id="emailHelp" class="form-text text-muted texto-formulario">Nunca compartiremos tu correo.</small>
     </div>
-    <button type="submit" class="btn color-boton">Enviar pedido</button>
+    <button type="submit" class="btn button color-boton">Enviar pedido</button>
   </form>
 
     </main>

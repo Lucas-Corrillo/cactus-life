@@ -37,24 +37,24 @@ header{
 .title {
     margin: 50px 0;
     font-style: italic;
-    text-decoration: underline;
-    font-family: sans-serif;
+    font-family: "Dancing Script", cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-nuestros-productos {
+    margin: 50px 0;
+    font-style: italic;
+    font-size: 40px;
+    font-family: "Dancing Script", cursive;
     display: flex;
     justify-content: center;
 }
 
 /* textos */
-/*.text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blueviolet;
-    margin: 10px;
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-}*/
 
 .text-with-media {
+    font-family: "Quicksand", sans-serif;
     width: 50%;
 }
 
@@ -66,7 +66,7 @@ header{
 }
 
 .text-alone {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Quicksand", sans-serif;
     color: black;
     width: 90%;
     padding: 10px;
@@ -95,6 +95,7 @@ header{
 }
 
 .titulo-descripcion {
+    font-family: "Quicksand", sans-serif;
     font-weight: bold;
     font-size: 1.2em;
     color: #333;
@@ -102,9 +103,28 @@ header{
 }
 
 .descripcion-especie {
+    font-family: "Quicksand", sans-serif;
     color: black;
 }
 
+.texto-formulario {
+    font-family: "Quicksand", sans-serif;
+}
+
+.texto-asistencia-contenedor {
+    display: flex;
+    justify-content: center;
+}
+.texto-asistencia {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+.formulario-margenes {
+    margin: 0 20px;
+}
 /* links */
 a {
     text-decoration: none;
@@ -117,6 +137,7 @@ a {
 }
 
 .button {
+    font-family: "Kanit", sans-serif;
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
@@ -203,12 +224,13 @@ justify-content: center;
 
 .texto-icono {
    /* border: blueviolet solid 1px; */
+   font-family: "Quicksand", sans-serif;
+   font-size: 14px;
     align-self: self-start;
 }
 
 
 .color-boton {
-    margin: 10px;
     background-color: #21B613;
 }
 
