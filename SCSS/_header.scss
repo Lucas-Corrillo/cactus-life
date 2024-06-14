@@ -1,0 +1,31 @@
+/* header y nav */
+header {
+    background-color: #191919;
+    height: 150px;
+    width: 100%;
+}
+
+.nav-order {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-items {
+    align-self: center;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* fin de header y nav */

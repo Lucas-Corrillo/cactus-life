@@ -1,0 +1,45 @@
+/* inicio de la pagina comprar */
+.carousel-centro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carousel-tamaño-flechas {
+    height: 400px;
+    width: 50%;
+}
+
+.carousel-tamaño {
+    height: 400px;
+    width: auto;
+}
+
+.imagen-slider {
+    height: 400px;
+    width: auto;
+}
+
+.carousel-boton {
+    align-self: center;
+}
+
+.formulario-contenedor {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.texto-formulario {
+    font-family: "Quicksand", sans-serif;
+}
+
+.formulario-entrada {
+    width: 30%;
+}
+
+.formulario-email-contenedor {
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+/* fin de los estilos de comprar */

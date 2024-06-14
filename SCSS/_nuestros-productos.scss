@@ -1,0 +1,76 @@
+/* inicio de nuestros productos */
+.titulo-nuestros-productos {
+    margin: 50px 0;
+    font-style: italic;
+    font-size: 40px;
+    font-family: "Dancing Script", cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-contenido-contenedor {
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-contenido {
+    height: 100%;
+    width: auto;
+}
+
+.descripciones-contenedor {
+    list-style-type: none;
+}
+
+.titulo-descripcion {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    margin-right: 10px;
+}
+
+.descripcion-especie {
+    font-family: "Quicksand", sans-serif;
+    color: black;
+}
+
+.descripciones-contenedor {
+    li {
+    background-color: #3b9b48ad;
+    margin: 10px 0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+}
+
+.iconos-contenedor {
+    /* border: blueviolet solid 3px; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+     display: grid;
+     grid-template-rows: 150px 50px;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     justify-items: center;
+     align-items: center;
+}
+
+.tamaño-icono {
+    /* border: blueviolet solid 1px; */
+     height: 125px;
+     width: auto;
+}
+
+.texto-icono {
+    /* border: blueviolet solid 1px; */
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+     align-self: self-start;
+}
+
+/* fin de estilos de nuestros productos */

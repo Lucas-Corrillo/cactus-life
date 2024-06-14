@@ -1,0 +1,39 @@
+/* inicio del footer */
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #191919;
+}
+footer ul li {
+    list-style-type: none;
+}
+
+.footer-order {
+    /* border: 3px, solid blueviolet; */
+    display: grid;
+    grid-template-rows: 150px 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-items {
+    justify-self: center;
+   /* border: 1px, solid blueviolet; */
+}
+
+.footer-image {
+    height: 135px;
+    width: auto;
+}
+
+.footer-text-container {
+    justify-self: center;
+    grid-column: 1 / 6;
+}
+
+.footer-text {
+    color: whitesmoke;
+}
+
+/* fin de estilos del footer */

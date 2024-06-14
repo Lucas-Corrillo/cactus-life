@@ -1,0 +1,42 @@
+/* inicio de pagina quienes somos */
+.logo-icono-contenedor {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-icono {
+    height: 100px;
+    width: auto;
+}
+
+.text-alone-container {
+    /* border: #191919 solid 1px; */
+     margin-bottom: 50px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .text-alone {
+    font-family: "Quicksand", sans-serif;
+    color: black;
+    width: 90%;
+    padding: 10px;
+}
+
+.media-1 {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imagen-media-1 {
+    align-self: center;
+    height: 250px;
+    width: auto;
+}
+
+/* fin de estilos de quienes somos */

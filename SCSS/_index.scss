@@ -1,0 +1,59 @@
+/* estilos de index */
+
+.imagen-titulo-contenedor {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-titulo {
+    height: 300px;
+    width: 50%;
+}
+
+.title {
+    margin: 50px 0;
+    font-style: italic;
+    font-family: "Dancing Script", cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.page-1-order {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.text-with-media {
+    font-family: "Quicksand", sans-serif;
+    width: 50%;
+}
+
+.videos {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    font-family: "Kanit", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.color-boton {
+    background-color: #21B613;
+}
+
+section {
+    ul {
+        li {
+            display: inline;
+        }
+    }
+}
+/* fin de estilos de index */
