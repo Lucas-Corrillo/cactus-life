@@ -35,7 +35,7 @@
 }
 
 .descripcion-especie {
-    font-family: "Quicksand", sans-serif;
+    font-family: map-get($fuentes, texto);
     color: black;
 }
 

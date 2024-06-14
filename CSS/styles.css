@@ -103,7 +103,7 @@ footer ul li {
 }
 
 .text-with-media {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand" sans-serif;
   width: 50%;
 }
 
@@ -114,7 +114,7 @@ footer ul li {
 }
 
 .button {
-  font-family: "Kanit", sans-serif;
+  font-family: "Kanit" sans-serif;
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
@@ -151,7 +151,7 @@ section ul li {
 }
 
 .text-alone {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand" sans-serif;
   color: black;
   width: 90%;
   padding: 10px;
@@ -209,7 +209,7 @@ section ul li {
 }
 
 .descripcion-especie {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand" sans-serif;
   color: black;
 }
 
@@ -278,7 +278,7 @@ section ul li {
 }
 
 .texto-formulario {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand" sans-serif;
 }
 
 .formulario-entrada {
@@ -298,7 +298,7 @@ section ul li {
 }
 
 .texto-asistencia {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand" sans-serif;
   text-align: center;
   margin: 0 20px;
   margin-bottom: 20px;

@@ -27,7 +27,7 @@
 }
 
 .text-with-media {
-    font-family: "Quicksand", sans-serif;
+    font-family: map-get($fuentes, texto);
     width: 50%;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .button {
-    font-family: "Kanit", sans-serif;
+    font-family: map-get($fuentes, boton);
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
@@ -46,7 +46,7 @@
 }
 
 .color-boton {
-    background-color: #21B613;
+    background-color: $color-marca;
 }
 
 section {

@@ -30,7 +30,7 @@
 }
 
 .texto-formulario {
-    font-family: "Quicksand", sans-serif;
+    font-family: map-get($fuentes, texto);
 }
 
 .formulario-entrada {
