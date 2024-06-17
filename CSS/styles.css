@@ -12,7 +12,6 @@ header {
 }
 
 .nav-order {
-  list-style-type: none;
   display: flex;
   justify-content: space-around;
 }
@@ -29,7 +28,14 @@ header {
   justify-content: center;
 }
 
+.link-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 .link {
+  font-family: "Playwrite IS", cursive;
   text-decoration: none;
   color: whitesmoke;
 }
@@ -38,12 +44,8 @@ header {
 /* inicio del footer */
 footer {
   background-color: #191919;
-  height: 200px;
+  height: 280px;
   width: 100%;
-}
-
-footer ul li {
-  list-style-type: none;
 }
 
 .footer-order {
@@ -55,9 +57,24 @@ footer ul li {
   align-items: center;
 }
 
-.footer-items {
+.footer-item-1 {
   justify-self: center;
-  /* border: 1px, solid blueviolet; */
+}
+
+.footer-item-2 {
+  justify-self: center;
+}
+
+.footer-item-3 {
+  justify-self: center;
+}
+
+.footer-item-4 {
+  justify-self: center;
+}
+
+.footer-item-5 {
+  justify-self: center;
 }
 
 .footer-image {
@@ -71,6 +88,7 @@ footer ul li {
 }
 
 .footer-text {
+  font-family: "Playwrite IS", cursive;
   color: whitesmoke;
 }
 
@@ -311,6 +329,46 @@ section ul li {
 /* fin de estilos de asistencia */
 /* media querys */
 @media only screen and (max-width: 420px) {
+  /* nav bar */
+  header {
+    height: 170px;
+    width: 100%;
+  }
+  .link-container {
+    margin-top: 1px;
+    margin-bottom: 10px;
+  }
+  .link {
+    font-size: 12px;
+  }
+  /* footer */
+  .footer-order {
+    height: 280px;
+    width: 100%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .footer-image {
+    height: 133px;
+    width: auto;
+  }
+  .footer-item-2 {
+    order: 2;
+  }
+  .footer-item-4 {
+    order: 1;
+  }
+  .footer-item-5 {
+    order: 2;
+  }
+  .footer-text-container {
+    grid-row: 2/span 1;
+    grid-column: 2/span 1;
+  }
+  .footer-text {
+    margin-bottom: 6rem;
+  }
+  /* página index */
   .imagen-titulo {
     width: 100%;
   }
@@ -321,6 +379,7 @@ section ul li {
     width: 80%;
     margin: 20px;
   }
+  /* quienes somos */
   .imagen-media-1 {
     width: 390px;
     height: auto;

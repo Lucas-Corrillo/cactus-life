@@ -1,10 +1,7 @@
 /* inicio del footer */
 footer {
     background-color: $color-pagina;
-    @include tamanios (200px, 100%)
-}
-footer ul li {
-    list-style-type: none;
+    @include tamanios (280px, 100%)
 }
 
 .footer-order {
@@ -16,14 +13,33 @@ footer ul li {
     align-items: center;
 }
 
-.footer-items {
+.footer-item-1 {
     justify-self: center;
-   /* border: 1px, solid blueviolet; */
+    // border: 1px, solid blueviolet;
+}
+
+.footer-item-2 {
+    justify-self: center;
+    // border: 1px, solid blueviolet;
+}
+
+.footer-item-3 {
+    justify-self: center;
+    // border: 1px, solid blueviolet;
+}
+
+.footer-item-4 {
+    justify-self: center;
+    // border: 1px, solid blueviolet;
+}
+
+.footer-item-5 {
+    justify-self: center;
+    // border: 1px, solid blueviolet;
 }
 
 .footer-image {
-    height: 135px;
-    width: auto;
+    @include tamanios (135px, auto)
 }
 
 .footer-text-container {
@@ -32,6 +48,7 @@ footer ul li {
 }
 
 .footer-text {
+    font-family: "Playwrite IS", cursive;
     color: whitesmoke;
 }
 

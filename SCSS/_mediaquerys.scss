@@ -1,5 +1,52 @@
 /* media querys */
 @media only screen and (max-width: 420px) {
+    /* nav bar */
+    header {
+        @include tamanios (170px, 100%)
+    }
+
+    .link-container {
+        margin-top: 1px;
+        margin-bottom: 10px;
+    }
+
+    .link {
+        font-size: 12px;
+    }
+
+    /* footer */
+    .footer-order {
+        @include tamanios (280px, 100%);
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .footer-image {
+        @include tamanios (133px, auto)
+    }
+
+    .footer-item-2 {
+        order: 2;
+    }
+
+    .footer-item-4 {
+        order: 1;
+    }
+
+    .footer-item-5 {
+        order: 2;
+    }
+
+    .footer-text-container {
+        grid-row: 2 / span 1;
+        grid-column: 2 / span 1;
+    }
+
+    .footer-text {
+        margin-bottom: 6rem;
+    }
+
+    /* página index */
     .imagen-titulo {
         width: 100%;
     }
@@ -12,7 +59,8 @@
         width: 80%;
         margin: 20px;
     }
-
+    
+    /* quienes somos */
     .imagen-media-1 {
         width: 390px;
         height: auto;
