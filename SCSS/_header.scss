@@ -1,8 +1,7 @@
 /* header y nav */
 header {
     background-color: $color-pagina;
-    height: 150px;
-    width: 100%;
+    @include tamanios (150px, 100%)
 }
 
 .nav-order {
