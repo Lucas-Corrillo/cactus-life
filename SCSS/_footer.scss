@@ -1,7 +1,9 @@
 /* inicio del footer */
 footer {
     background-color: $color-pagina;
-    @include tamanios (280px, 100%)
+    @include tamanios (280px, 100%);
+    display: grid;
+    align-items: center;
 }
 
 .footer-order {
