@@ -35,9 +35,11 @@
 
   <header>
 
-    <div class="nav-logo">
-        <img src="../media/cactus-logo.jpg" alt="cactus logo">
-    </div>
+    <div class="nav-logo-container">
+      <a href="../index.html">
+      <img class="nav-logo" src="../media/cactus-logo.jpg" alt="cactus logo">
+      </a>
+  </div>
 
     <nav>
 
@@ -79,7 +81,7 @@
       Seleccione su producto:
     </h1>
 
-    <!-- No puedo cambiarle el tamaño y el ancho a este slider de imágenes que saqué de bootstrap ¿cómo hago?-->
+    <!-- carousel -->
     <div class="carousel-centro">
 
       <div id="carouselExample" class="carousel slide carousel-tamaño-flechas">
@@ -109,11 +111,15 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </div>
       <!-- -->
 
+    <!-- Botones dropdown -->
+     <div class="contenedor-botones">
+
       <div class="dropdown carousel-boton">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Seleccione su cactus:
+        <button class="btn btn-secondary dropdown-toggle tamaño-botones" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Su cactus:
         </button>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="#">Echeveria elegans</a></li>
@@ -125,8 +131,8 @@
       </div>
 
       <div class="dropdown carousel-boton">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Seleccione su color de maceta:
+        <button class="btn btn-secondary dropdown-toggle tamaño-botones" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Color de maceta:
         </button>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="#">Azul</a></li>
@@ -138,8 +144,9 @@
           <li><a class="dropdown-item" href="#">Blanco</a></li>
         </ul>
       </div>
-      <!-- colocar los dropdowns antes de este div, así se alinearán con el carousel por medio de flex-->
-    </div>
+
+      </div>
+      <!---->
 
     <!-- colocar un texto, y una entrada de texto para indicar cantidad de productos-->
 

@@ -63,6 +63,7 @@
     .text-with-media {
         width: 80%;
         margin: 20px;
+        font-size: 17px;
     }
     
     /* quienes somos */
@@ -75,9 +76,9 @@
     .button {
         margin-bottom: 80px;
     }
-}
-
-/* nuestros productos */
+    
+    /**/
+    /* nuestros productos */
 .imagen-contenido-contenedor {
     @include tamanios (260px, 100%)
 }
@@ -137,4 +138,57 @@
     grid-column: 1 / span 2;
     grid-row: 6;
 }
+
+/* comprar */
+/* carousel querys */
+.carousel-centro {
+    @include tamanios (350px, 100%);
+}
+.carousel-tamaño-flechas {
+    @include tamanios (350px, 100%);
+}
+
+.carousel-tamaño {
+    @include tamanios (350px, auto);
+}
+
+.carousel-boton {
+    @include tamanios (0, 50%)
+}
+
+.tamaño-botones {
+    @include tamanios (40px, 90%)
+}
+
+.text-alone-container {
+    display: flex;
+}
+
+.imagen.slider {
+    @include tamanios (400px, 100%);
+}
+/* fin de carousel querys */
+
+/* botones querys */
+
+/* formularios querys */
+.formulario-contenedor {
+    margin-top: 65px;
+    margin-bottom: 25px;
+}
+
+.formulario-entrada {
+    width: 63%;
+}
+
+.button {
+    margin-bottom: 65px;
+}
+
+/* asistencia */
+.texto-asistencia {
+    font-size: 17px;
+}
 /* fin de media querys */
+
+}

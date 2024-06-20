@@ -27,7 +27,11 @@
 }
 
 .text-with-media {
-    font-family: map-get($fuentes, texto);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
     width: 50%;
 }
 
@@ -38,7 +42,7 @@
 }
 
 .button {
-    font-family: map-get($fuentes, boton);
+    font-family: "Kanit", sans-serif;
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;

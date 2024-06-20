@@ -22,11 +22,21 @@ header {
   align-items: center;
 }
 
-.nav-logo {
+.nav-logo-container {
   height: 100px;
   width: auto;
   display: flex;
   justify-content: center;
+}
+
+.nav-logo {
+  height: 100px;
+  width: auto;
+}
+
+.nav-logo:hover {
+  transform: rotateY(360deg);
+  transition: all 2s;
 }
 
 .link-container {
@@ -131,7 +141,11 @@ footer {
 }
 
 .text-with-media {
-  font-family: "Quicksand" sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
   width: 50%;
 }
 
@@ -142,7 +156,7 @@ footer {
 }
 
 .button {
-  font-family: "Kanit" sans-serif;
+  font-family: "Kanit", sans-serif;
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
@@ -174,12 +188,14 @@ section ul li {
 .text-alone-container {
   /* border: #191919 solid 1px; */
   margin-bottom: 50px;
+  font-size: 20px;
+  text-align: center;
   display: flex;
   justify-content: center;
 }
 
 .text-alone {
-  font-family: "Quicksand" sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: black;
   width: 90%;
   padding: 10px;
@@ -237,7 +253,7 @@ section ul li {
 }
 
 .descripcion-especie {
-  font-family: "Quicksand" sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: black;
 }
 
@@ -288,6 +304,31 @@ section ul li {
   /* border: blueviolet solid 1px; */
   height: 125px;
   width: auto;
+}
+
+.tamaño-icono-1:hover {
+  transform: rotateY(360deg);
+  transition: all 1s;
+}
+
+.tamaño-icono-2:hover {
+  transform: rotateY(360deg);
+  transition: all 1s;
+}
+
+.tamaño-icono-3:hover {
+  transform: rotateY(360deg);
+  transition: all 1s;
+}
+
+.tamaño-icono-4:hover {
+  transform: rotateY(360deg);
+  transition: all 1s;
+}
+
+.tamaño-icono-5:hover {
+  transform: rotateY(360deg);
+  transition: all 1s;
 }
 
 .texto-icono-1 {
@@ -344,11 +385,23 @@ section ul li {
 
 .imagen-slider {
   height: 400px;
-  width: auto;
+  width: 100%;
+}
+
+.contenedor-botones {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
 }
 
 .carousel-boton {
   align-self: center;
+  padding: 0 20px;
+}
+
+.tamaño-botones {
+  height: 40px;
+  width: 100%;
 }
 
 .formulario-contenedor {
@@ -358,7 +411,7 @@ section ul li {
 }
 
 .texto-formulario {
-  font-family: "Quicksand" sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .formulario-entrada {
@@ -378,7 +431,8 @@ section ul li {
 }
 
 .texto-asistencia {
-  font-family: "Quicksand" sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
   text-align: center;
   margin: 0 20px;
   margin-bottom: 20px;
@@ -444,6 +498,7 @@ section ul li {
   .text-with-media {
     width: 80%;
     margin: 20px;
+    font-size: 17px;
   }
   /* quienes somos */
   .imagen-media-1 {
@@ -454,74 +509,108 @@ section ul li {
   .button {
     margin-bottom: 80px;
   }
+  /**/
+  /* nuestros productos */
+  .imagen-contenido-contenedor {
+    height: 260px;
+    width: 100%;
+  }
+  .iconos-contenedor {
+    grid-template-rows: 150px 50px 150px 50px 150px 50px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+  }
+  .tamaño-icono-1 {
+    height: 120px;
+    width: auto;
+  }
+  .tamaño-icono-2 {
+    height: 120px;
+    width: auto;
+  }
+  .tamaño-icono-3 {
+    height: 120px;
+    width: auto;
+  }
+  .tamaño-icono-4 {
+    height: 120px;
+    width: auto;
+  }
+  .contenedor-icono-5 {
+    grid-column: span 2;
+  }
+  .tamaño-icono-5 {
+    height: 120px;
+    width: auto;
+    grid-column: 1/span 2;
+  }
+  .texto-icono-1 {
+    grid-column: 1/span 1;
+    grid-row: 2;
+  }
+  .texto-icono-2 {
+    grid-column: 2/span 1;
+    grid-row: 2;
+  }
+  .texto-icono-3 {
+    grid-column: 1/span 1;
+    grid-row: 4;
+  }
+  .texto-icono-4 {
+    grid-column: 2/span 1;
+    grid-row: 4;
+  }
+  .texto-icono-5 {
+    grid-column: 1/span 2;
+    grid-row: 6;
+  }
+  /* comprar */
+  /* carousel querys */
+  .carousel-centro {
+    height: 350px;
+    width: 100%;
+  }
+  .carousel-tamaño-flechas {
+    height: 350px;
+    width: 100%;
+  }
+  .carousel-tamaño {
+    height: 350px;
+    width: auto;
+  }
+  .carousel-boton {
+    height: 0;
+    width: 50%;
+  }
+  .tamaño-botones {
+    height: 40px;
+    width: 90%;
+  }
+  .text-alone-container {
+    display: flex;
+  }
+  .imagen.slider {
+    height: 400px;
+    width: 100%;
+  }
+  /* fin de carousel querys */
+  /* botones querys */
+  /* formularios querys */
+  .formulario-contenedor {
+    margin-top: 65px;
+    margin-bottom: 25px;
+  }
+  .formulario-entrada {
+    width: 63%;
+  }
+  .button {
+    margin-bottom: 65px;
+  }
+  /* asistencia */
+  .texto-asistencia {
+    font-size: 17px;
+  }
+  /* fin de media querys */
 }
-/* nuestros productos */
-.imagen-contenido-contenedor {
-  height: 260px;
-  width: 100%;
-}
-
-.iconos-contenedor {
-  grid-template-rows: 150px 50px 150px 50px 150px 50px;
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: 50px;
-}
-
-.tamaño-icono-1 {
-  height: 120px;
-  width: auto;
-}
-
-.tamaño-icono-2 {
-  height: 120px;
-  width: auto;
-}
-
-.tamaño-icono-3 {
-  height: 120px;
-  width: auto;
-}
-
-.tamaño-icono-4 {
-  height: 120px;
-  width: auto;
-}
-
-.contenedor-icono-5 {
-  grid-column: span 2;
-}
-
-.tamaño-icono-5 {
-  height: 120px;
-  width: auto;
-  grid-column: 1/span 2;
-}
-
-.texto-icono-1 {
-  grid-column: 1/span 1;
-  grid-row: 2;
-}
-
-.texto-icono-2 {
-  grid-column: 2/span 1;
-  grid-row: 2;
-}
-
-.texto-icono-3 {
-  grid-column: 1/span 1;
-  grid-row: 4;
-}
-
-.texto-icono-4 {
-  grid-column: 2/span 1;
-  grid-row: 4;
-}
-
-.texto-icono-5 {
-  grid-column: 1/span 2;
-  grid-row: 6;
-}
-
-/* fin de media querys */
 
 /*# sourceMappingURL=styles.css.map */

@@ -16,11 +16,22 @@
 
 .imagen-slider {
     height: 400px;
-    width: auto;
+    width: 100%;
+}
+
+.contenedor-botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
 }
 
 .carousel-boton {
     align-self: center;
+    padding: 0 20px;
+}
+
+.tamaño-botones {
+    @include tamanios (40px, 100%)
 }
 
 .formulario-contenedor {
@@ -30,7 +41,7 @@
 }
 
 .texto-formulario {
-    font-family: map-get($fuentes, texto);
+    font-family: "Quicksand", sans-serif;
 }
 
 .formulario-entrada {

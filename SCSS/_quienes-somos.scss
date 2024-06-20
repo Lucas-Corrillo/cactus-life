@@ -14,12 +14,14 @@
 .text-alone-container {
     /* border: #191919 solid 1px; */
      margin-bottom: 50px;
+     font-size: 20px;
+     text-align: center;
      display: flex;
      justify-content: center;
  }
 
  .text-alone {
-    font-family: map-get($fuentes, texto);
+    font-family: "Quicksand", sans-serif;
     color: black;
     width: 90%;
     padding: 10px;

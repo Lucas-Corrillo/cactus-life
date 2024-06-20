@@ -15,11 +15,21 @@ header {
     align-items: center;
 }
 
-.nav-logo {
+.nav-logo-container {
     height: 100px;
     width: auto;
     display: flex;
     justify-content: center;
+}
+
+.nav-logo {
+    height: 100px;
+    width: auto;
+}
+
+.nav-logo:hover {
+    transform: rotateY(360deg);
+    transition: all 2s;
 }
 
 .link-container {
