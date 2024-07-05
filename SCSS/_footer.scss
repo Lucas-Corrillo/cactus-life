@@ -1,6 +1,6 @@
 /* inicio del footer */
 footer {
-    background-color: $color-pagina;
+    background-color: map-get($paleta-colores, color-pagina);
     @include tamanios (280px, 100%);
     display: grid;
     align-items: center;
@@ -51,7 +51,7 @@ footer {
 
 .footer-text {
     font-family: "Playwrite IS", cursive;
-    color: whitesmoke;
+    color: map-get($paleta-colores, color-texto-nav);
 }
 
 /* fin de estilos del footer */

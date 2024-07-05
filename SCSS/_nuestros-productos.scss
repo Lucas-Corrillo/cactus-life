@@ -3,7 +3,7 @@
     margin: 50px 0;
     font-style: italic;
     font-size: 40px;
-    font-family: "Dancing Script", cursive;
+    font-family: $titulo;
     display: flex;
     justify-content: center;
 }
@@ -27,7 +27,7 @@
 }
 
 .titulo-descripcion {
-    font-family: "Quicksand", sans-serif;
+    font-family: $titulo;
     font-weight: bold;
     font-size: 1.2em;
     color: #333;
@@ -35,7 +35,7 @@
 }
 
 .descripcion-especie {
-    font-family: "Quicksand", sans-serif;
+    font-family: $texto;
     color: black;
 }
 
@@ -117,35 +117,35 @@
 
 .texto-icono-1 {
     /* border: blueviolet solid 1px; */
-    font-family: "Quicksand", sans-serif;
+    font-family: $texto;
     font-size: 14px;
      align-self: self-start;
 }
 
 .texto-icono-2 {
     /* border: blueviolet solid 1px; */
-    font-family: "Quicksand", sans-serif;
+    font-family: $texto;
     font-size: 14px;
      align-self: self-start;
 }
 
 .texto-icono-3 {
     /* border: blueviolet solid 1px; */
-    font-family: "Quicksand", sans-serif;
+    font-family: $texto;
     font-size: 14px;
      align-self: self-start;
 }
 
 .texto-icono-4 {
     /* border: blueviolet solid 1px; */
-    font-family: "Quicksand", sans-serif;
+    font-family: $texto;
     font-size: 14px;
      align-self: self-start;
 }
 
 .texto-icono-5 {
     /* border: blueviolet solid 1px; */
-    font-family: "Quicksand", sans-serif;
+    font-family: $texto;
     font-size: 14px;
      align-self: self-start;
 }

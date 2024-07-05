@@ -1,6 +1,6 @@
 /* header y nav */
 header {
-    background-color: $color-pagina;
+    background-color: map-get($paleta-colores, color-pagina);
     @include tamanios (150px, 100%)
 }
 
@@ -41,7 +41,7 @@ header {
 .link {
     font-family: "Playwrite IS", cursive;
     text-decoration: none;
-    color: whitesmoke;
+    color: map-get($paleta-colores, color-texto-nav);
 }
 
 .nav-mobile {

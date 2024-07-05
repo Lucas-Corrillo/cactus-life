@@ -15,7 +15,7 @@
 .title {
     margin: 50px 0;
     font-style: italic;
-    font-family: "Dancing Script", cursive;
+    font-family: $titulo;
     display: flex;
     justify-content: center;
 }
@@ -30,7 +30,7 @@
     text-align: center;
     display: flex;
     align-items: center;
-    font-family: "Quicksand", sans-serif;
+    font-family: $texto;
     font-size: 20px;
     width: 50%;
 }
@@ -42,7 +42,7 @@
 }
 
 .button {
-    font-family: "Kanit", sans-serif;
+    font-family: $boton;
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
@@ -50,7 +50,7 @@
 }
 
 .color-boton {
-    background-color: $color-marca;
+    background-color: map-get($paleta-colores, color-marca);
 }
 
 section {
