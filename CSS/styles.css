@@ -114,6 +114,12 @@ footer {
 
 /* fin de estilos del footer */
 /* estilos de index */
+body {
+  background-image: url(../media/cactus-background-decoration.webp);
+  background-repeat: repeat;
+  background-size: 255px;
+}
+
 .imagen-titulo-contenedor {
   height: 300px;
   width: 100%;
